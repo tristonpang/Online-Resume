@@ -32,7 +32,7 @@ export default class Header extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="triston.dev/documents/testcv.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
+                  <a href="documents/testcv.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
                 </p>
               </div>
             </div> {/* end row */}
