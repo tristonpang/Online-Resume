@@ -21,7 +21,7 @@ export default class Header extends Component {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>College of Alice & Peter Tan</h3>
+                <h3>College of Alice & Peter Tan (CAPT)</h3>
                 <p className="info">University Town College Programme (UTCP) <span>•</span> <em className="date">August 2017 - Present</em></p>
                 <p>
                   Through its multidisciplinary curriculum, the UTCP helps students develop effective communications and strong writing skills, critical thinking skills, 
@@ -75,6 +75,50 @@ export default class Header extends Component {
             </div> {/* item end */}
           </div> {/* main-col end */}
         </div> {/* End Work */}
+        {/* Extra-curricular
+      ----------------------------------------------- */}
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1><span>Extra-Curricular</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>CAPTs_Lock</h3>
+                <p className="info">Founder <span>•</span> <em className="date">December 2017 - Present</em></p>
+                <p>
+                  CAPTs_Lock is a interest group in the College of Alice & Peter Tan that seeks to educate and empower with technology and programming.
+                  Through CAPTs_Lock, I have spearheaded and developed multiple initiatives: <br />
+                  •	Worked on portable electronic registration system that keeps track of attendance via QR code scanning, 
+                  now adopted by the College for all events requiring registration. <br />
+                  •	Worked on software to aid with residence allocation for incoming students
+                </p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>NUS Orbital</h3>
+                <p className="info">Participant <span>•</span> <em className="date">May 2018 - Aug 2018</em></p>
+                <p>
+                  Orbital is an independent software development project offered by NUS. Under this project, I developed 
+                  a mobile application called InTheLoop – a student event planning and management system. This application is currently being 
+                  adapted for use in CAPT.
+                </p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>CAPT College Students' Committee</h3>
+                <p className="info">Director of Publicity <span>•</span> <em className="date">May 2018 - Present</em></p>
+                <p>
+                  The College Students’ Committee represents the college’s student body and addresses their needs. As the Director of Publicity,
+                  I oversaw dynamics of student life and managed publicity campaigns, materials and the corporate image of the College. I led a team 
+                  of 22 student leaders and oversaw their personal development as well.
+                </p>
+              </div>
+            </div> {/* item end */}
+          </div> {/* main-col end */}
+        </div> {/* End Extra Curricular */}
         {/* Skills
       ----------------------------------------------- */}
         <div className="row skill">
