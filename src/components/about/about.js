@@ -22,12 +22,13 @@ export default class Header extends Component {
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>Jonathan Doe</span><br />
-                  <span>1600 Amphitheatre Parkway<br />
-                    Mountain View, CA 94043 US
+                  <span>Triston Pang Erh Syen</span><br />
+                  <span>College of Alice & Peter Tan<br />
+                    8 College Avenue East<br /> 
+                    Singapore 138615
                   </span><br />
-                  <span>(123)456-7890</span><br />
-                  <span>anyone@website.com</span>
+                  <span>(+65) 8338 1128</span><br />
+                  <span>triston.pang@u.nus.edu</span>
                 </p>
               </div>
               <div className="columns download">
