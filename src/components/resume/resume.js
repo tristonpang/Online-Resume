@@ -11,9 +11,8 @@ export default class Header extends Component {
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
           </div>
-          <div className="nine columns main-col">
+          <div className="nine columns main-col">          
             <div className="row item">
-              
               <div className="twelve columns">
                 <img className="resume-pic" src="images/nus_logo.png" alt />
                 <h3>National University of Singapore</h3>
@@ -21,6 +20,7 @@ export default class Header extends Component {
                 <p></p>
               </div>
             </div> {/* item end */}
+            
             <div className="row item">
               <div className="twelve columns">
                 <img className="resume-pic" src="images/capt_logo.png" alt />
@@ -33,6 +33,7 @@ export default class Header extends Component {
                 </p>
               </div>
             </div> {/* item end */}
+            
           </div> {/* main-col end */}
         </div> {/* End Education */}
         {/* Work
