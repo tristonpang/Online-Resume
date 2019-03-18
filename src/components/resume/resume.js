@@ -13,16 +13,19 @@ export default class Header extends Component {
           </div>
           <div className="nine columns main-col">
             <div className="row item">
+              
               <div className="twelve columns">
+                <img className="resume-pic" src="images/nus_logo.png" alt />
                 <h3>National University of Singapore</h3>
-                <p className="info">Bachelor of Computing (Honours) in Computer Science <span>•</span> <em className="date">August 2017 - Present</em></p>
+                <p className="info">Bachelor of Computing (Honours) in Computer Science <br /><span>•</span> <em className="date">August 2017 - Present</em></p>
                 <p></p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
+                <img className="resume-pic" src="images/capt_logo.png" alt />
                 <h3>College of Alice & Peter Tan (CAPT)</h3>
-                <p className="info">University Town College Programme (UTCP) <span>•</span> <em className="date">August 2017 - Present</em></p>
+                <p className="info">University Town College Programme (UTCP) <br /><span>•</span> <em className="date">August 2017 - Present</em></p> 
                 <p>
                   Through its multidisciplinary curriculum, the UTCP helps students develop effective communications and strong writing skills, critical thinking skills, 
                   and intellectual breadth and rigour to tackle the complex, inter-related challenges confronting the world today. 
@@ -41,20 +44,11 @@ export default class Header extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Steady</h3>
-                <p className="info">Founder, Lead Developer <span>•</span> <em className="date">September 2018 - Present</em></p>
-                <p>
-                  Steady is a lifestyle marketplace mobile application catered to the hearing impaired. The idea was first formulated during a hackathon, 
-                  and has since developed into a social enterprise. Steady is currently a work-in-progress.
-                </p>
-              </div>
-            </div> {/* item end */}
-            <div className="row item">
-              <div className="twelve columns">
+                <img className="resume-pic" src="images/nebtree_logo.png" alt />
                 <h3>NebulasTree Private Limited</h3>
                 <p className="info">Intern (Software Development) <span>•</span> <em className="date">Dec 2018 - Jan 2019</em></p>
                 <p>
-                  NebulasTree is a small-medium enterprise with a 6 man team that specialises in software engineering and cybersecurity.
+                  NebulasTree is a start-up that specialises in software engineering and cybersecurity.
                   In my time as an intern there, I was tasked to develop a One-Time Password (OTP) mobile authenticator system for iOS platforms.
                   In the span of a month, I created from scratch the client-side aspect of the system, despite being unfamiliar with Swift and Xcode.
                   I think on my feet, and I took up this job to challenge myself and learn something new in a short period of time.
@@ -63,6 +57,7 @@ export default class Header extends Component {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
+                <img className="resume-pic" src="images/nus_logo.png" alt />
                 <h3>National University of Singapore</h3>
                 <p className="info">Teaching Assistant <span>•</span> <em className="date">Jan 2018 - Present</em></p>
                 <p>
@@ -73,17 +68,29 @@ export default class Header extends Component {
                 </p>
               </div>
             </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <img className="resume-pic" src="images/steady_logo.png" alt />
+                <h3>Steady</h3>
+                <p className="info">Founder, Lead Developer <span>•</span> <em className="date">September 2018 - Present</em></p>
+                <p>
+                  Steady is a lifestyle marketplace mobile application catered to the hearing impaired. The idea was first formulated during a hackathon, 
+                  and has since developed into a social enterprise. Steady is currently a work-in-progress.
+                </p>
+              </div>
+            </div> {/* item end */}
           </div> {/* main-col end */}
         </div> {/* End Work */}
         {/* Extra-curricular
       ----------------------------------------------- */}
-        <div className="row work">
+        <div className="row cca work">
           <div className="three columns header-col">
             <h1><span>Extra-Curricular</span></h1>
           </div>
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
+                <img src="images/captslock.jpg" alt />
                 <h3>CAPTs_Lock</h3>
                 <p className="info">Founder <span>•</span> <em className="date">December 2017 - Present</em></p>
                 <p>
@@ -97,6 +104,7 @@ export default class Header extends Component {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
+                <img src="images/intheloop.png" alt />
                 <h3>NUS Orbital</h3>
                 <p className="info">Participant <span>•</span> <em className="date">May 2018 - Aug 2018</em></p>
                 <p>
@@ -108,6 +116,7 @@ export default class Header extends Component {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
+                <img src="images/csc.jpg" alt />
                 <h3>CAPT College Students' Committee</h3>
                 <p className="info">Director of Publicity <span>•</span> <em className="date">May 2018 - Present</em></p>
                 <p>
@@ -127,8 +136,10 @@ export default class Header extends Component {
           </div>
           <div className="nine columns main-col">
             <p>
-              I specialise in Software Engineering, and have experience in Mobile Development. 
-              I consider myself a back-end developer, but can also do some front-end development as well.
+              I am primarily a software engineer, and can contribute to the code base and structure of any software project in development. 
+              Although I am more familiar with mobile development and back-end development, I am willing to learn new skills, 
+              languages or frameworks as required by the company. I am a very focused and driven individual, 
+              and as an intern I always give my full commitment and dedication to the task at hand.
             </p>
             <div className="bars">
               <ul className="skills">
