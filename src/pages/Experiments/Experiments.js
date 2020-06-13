@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import classes from "./Experiments.module.css";
+import ExperimentEntry from '../../components/ExperimentEntry';
 
 const Experiments = () => {
   return (
@@ -14,7 +15,7 @@ const Experiments = () => {
         </Nav>
       </Navbar>
       <div className={classes.mainContentContainer}>
-        <p>Test</p>
+        <ExperimentEntry name='Order Shuffler' description='Simple shuffler that randomizes order of names' />
       </div>
     </>
   );
