@@ -9,7 +9,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route path='/'>
+            <Route exact path='/'>
               <Home />
             </Route>
             <Route path='/experiments'>
