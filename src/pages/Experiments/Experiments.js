@@ -7,7 +7,7 @@ import ExperimentEntry from '../../components/ExperimentEntry';
 const Experiments = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark" sticky="top" className={classes.navbar}>
+      <Navbar bg="dark" variant="dark" className={classes.navbar}>
         <Navbar.Brand href='/'>triston.dev</Navbar.Brand>
         <Nav className={classes.nav}>
           <Nav.Link href="/">Home</Nav.Link>
