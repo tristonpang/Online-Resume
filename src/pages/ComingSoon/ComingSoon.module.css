@@ -1,0 +1,13 @@
+.mainContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #FFF;
+}

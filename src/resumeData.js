@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"http://localhost:3000/",
-    "name": "Triston",
+    "name": "Triston Pang",
     "role": "Software Developer"
     }
   export default resumeData
