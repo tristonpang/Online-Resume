@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Home from './pages/Home';
 import ComingSoon from './pages/ComingSoon/ComingSoon';
+import Experiments from './pages/Experiments/Experiments';
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
               <Home />
             </Route>
             <Route path='/experiments'>
-              <ComingSoon />
+              <Experiments />
+              {/* <ComingSoon /> */}
             </Route>
           </Switch>
         </div>
