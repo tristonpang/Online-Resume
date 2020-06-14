@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import classes from "./OrderShuffler.module.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import NameItem from './NameItem';
 
 const OrderShuffler = () => {
-  const [order, setOrder] = useState(["apple", "banana", "orange"]);
+  const [order, setOrder] = useState([]);
   const [inputNames, setInputNames] = useState("");
 
   const addNames = (newNames) => {
@@ -64,11 +65,11 @@ const OrderShuffler = () => {
         <Form.Row style={{ paddingBottom: 20 }}>
           <Form.Label>Name(s) input</Form.Label>
           <Form.Control
+            className={classes.formTextArea}
             as="textarea"
             placeholder="Add names here..."
             onChange={(e) => setInputNames(e.target.value)}
             value={inputNames}
-            style={{ width: '100%' }}
           />
           <Button
             className={classes.formButton}
@@ -89,20 +90,20 @@ const OrderShuffler = () => {
           >
             Clear All
           </Button>
+          <Form.Label>Order List in Text (for copy/pasting)</Form.Label>
+          <Form.Control className={classes.formTextArea} readOnly as='textarea' value={order}/>
         </Form.Row>
       </Form>
       <div className={classes.nameItemsContainer}>
         <h2 className={classes.text} style={{ paddingBottom: 12 }}>Order List</h2>
         {order.map((name) => (
-          <NameItem name={name} />
+          <NameItem name={name} onRemove={() => removeName(name)} />
         ))}
       </div>
     </div>
   );
 };
 
-const NameItem = (props) => {
-  return <div className={classes.nameItem}>{props.name}</div>;
-};
+
 
 export default OrderShuffler;

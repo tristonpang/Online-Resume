@@ -1,0 +1,27 @@
+.nameItem {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  padding: 10px 0px;
+  margin-bottom: 12px;
+}
+
+.deleteButton {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 4px;
+}
+
+.deleteButton:hover { /* Override global styling */
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2px;
+}
