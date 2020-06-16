@@ -5,6 +5,7 @@ import classes from "./Experiments.module.css";
 import ExperimentEntry from "../../components/ExperimentEntry";
 import OrderShuffler from './OrderShuffler'
 import { Switch, Route, useRouteMatch } from "react-router-dom";
+import DragDrop from "./DragDrop";
 
 const Experiments = () => {
   const match = useRouteMatch();
@@ -29,9 +30,17 @@ const Experiments = () => {
               description="Simple shuffler that randomizes order of names"
               url={`${match.path}/order-shuffler`}
             />
+            <ExperimentEntry
+              name="Drag N Drop"
+              description="Drag and drop example built to experiment with react-dnd"
+              url={`${match.path}/drag-n-drop`}
+            />
           </Route>
           <Route exact path={`${match.path}/order-shuffler`}>
             <OrderShuffler />
+          </Route>
+          <Route exact path={`${match.path}/drag-n-drop`}>
+            <DragDrop />
           </Route>
         </div>
       </Switch>
